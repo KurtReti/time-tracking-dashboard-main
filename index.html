@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
-
+  <script src="script.js"></script>
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -35,9 +35,9 @@
 
       </div>
       <div id="bottom-info">
-        <div class="period">Daily</div>
-        <div class="period">Weekly</div>
-        <div class="period">Monthly</div>    
+        <div class="period" id="daily" onClick="dailyPeriod()">Daily</div>
+        <div class="period" id="weekly" onClick="weeklyPeriod()">Weekly</div>
+        <div class="period" id="monthly" onClick="monthlyPeriod()">Monthly</div>    
       </div>
     </div>
     <div class="box" id="box-1">
@@ -46,7 +46,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Work
+          <div class="title-left">Work</div><div class="title-right">...</div>
         </div>
         <div class="time">
           5hrs <!-- daily -->
@@ -62,7 +62,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Play
+          <div class="title-left">Play</div><div class="title-right">...</div>
         </div>
         <div class="time">
           1hr <!-- daily -->
@@ -79,7 +79,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Study
+          <div class="title-left">Study</div><div class="title-right">...</div>
         </div>
         <div class="time">
           0hrs <!-- daily -->
@@ -96,7 +96,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Exercise
+          <div class="title-left">Exercise</div><div class="title-right">...</div>
         </div>
         <div class="time">
           1hr <!-- daily -->
@@ -113,7 +113,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Social
+          <div class="title-left">Social</div><div class="title-right">...</div>
         </div>
         <div class="time">
           1hr <!-- daily -->
@@ -130,7 +130,7 @@
       </div>
       <div class="bottom">
         <div class="title">
-          Self Care
+          <div class="title-left">Self-Care</div><div class="title-right">...</div>
         </div>
         <div class="time">
           0hrs <!-- daily -->
