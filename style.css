@@ -209,3 +209,26 @@ body{
     border: 2px solid white;
     border-radius: 65px;
 }
+
+@media (max-width: 985px){
+
+
+    #container{
+        grid-template-areas:
+        "A"
+        "B"
+        "C"
+        "D"
+        "E"
+        "F"
+        "G";
+    }
+
+    .info-box{
+        width: 300px;
+    }
+    .box{
+        width: 300px;
+    }
+
+}
