@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <script src="script.js"></script>
+  <script type="text/javascript" src="data.json"></script>
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -48,11 +49,11 @@
         <div class="title">
           <div class="title-left">Work</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time" id="box-1-time">
           5hrs <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 7hrs <!-- daily -->
+        <div class="time-previous" id="box-1-time-previous">
+          Yesterday - 7hrs <!-- daily -->
         </div>
       </div>
     </div>
@@ -62,13 +63,13 @@
       </div>
       <div class="bottom">
         <div class="title">
-          <div class="title-left">Play</div><div class="title-right">...</div>
+          <div class="title-left" id="play">Play</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time" id="box-2-time">
           1hr <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 2hrs <!-- daily -->
+        <div class="time-previous"id="box-2-time-previous">
+          Yesterday - 2hrs <!-- daily -->
         </div>
       </div>
 
@@ -81,11 +82,11 @@
         <div class="title">
           <div class="title-left">Study</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time"id="box-3-time">
           0hrs <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 1hr <!-- daily -->
+        <div class="time-previous"id="box-3-time-previous">
+          Yesterday - 1hr <!-- daily -->
         </div>
       </div>
 
@@ -98,11 +99,11 @@
         <div class="title">
           <div class="title-left">Exercise</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time"id="box-4-time">
           1hr <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 1hr <!-- daily -->
+        <div class="time-previous"id="box-4-time-previous">
+          Yesterday - 1hr <!-- daily -->
         </div>
       </div>
 
@@ -115,11 +116,11 @@
         <div class="title">
           <div class="title-left">Social</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time"id="box-5-time">
           1hr <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 3hrs <!-- daily -->
+        <div class="time-previous" id="box-5-time-previous">
+          Yesterday - 3hrs <!-- daily -->
         </div>
       </div>
     </div>
@@ -132,11 +133,11 @@
         <div class="title">
           <div class="title-left">Self-Care</div><div class="title-right">...</div>
         </div>
-        <div class="time">
+        <div class="time" id="box-6-time">
           0hrs <!-- daily -->
         </div>
-        <div class="time-previous">
-          Previous - 1hr <!-- daily -->
+        <div class="time-previous"id="box-6-time-previous">
+          Yesterday - 1hr <!-- daily -->
         </div>
       </div>
 
