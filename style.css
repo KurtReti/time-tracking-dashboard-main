@@ -182,6 +182,11 @@ body{
     display:inline-block;
     height: 10px;
     align-content: center;
+    cursor: pointer;
+    color: var(--PaleBlue);
+}
+.title-right:hover{
+    color:white;
 }
 
 #bottom-info{
@@ -192,6 +197,11 @@ body{
     padding-bottom: 10px;
     color: var(--DesaturatedBlue);
     font-weight: 400;
+    cursor: pointer;
+}
+
+.period:hover{
+    color:white;
 }
 
 #top-info-container{
